@@ -1,0 +1,37 @@
+package String;
+
+public class conversionstringg {
+
+	
+	public static void main(String []args) {
+		
+		int i = 100 ;
+		String s = Integer.toString(i);
+		System.out.println("S = "+ s);
+		
+		boolean b = true ;
+		String s1 = Boolean.toString(b);
+		System.out.println(s1);
+		
+		
+		System.out.println();
+		
+		System.out.println("// New line ");
+		
+		String str = "100";
+		int In = Integer.parseInt(str);
+		System.out.println(In);
+		
+		String str2 = "100";
+		double In2 = Double.parseDouble(str2);
+		System.out.println(In2);
+		
+		
+		String str3 = "125";
+		double in3 = Double.valueOf(str3);
+		System.out.println(in3);
+		
+		
+  		
+	}
+}
