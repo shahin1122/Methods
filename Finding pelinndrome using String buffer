@@ -1,0 +1,17 @@
+package String;
+
+public class pelindrome {
+  public static void main(String[]args) {
+	  String S1= new String("Madam");
+	  StringBuffer SB = new StringBuffer(S1);
+	  
+	  
+	  String S2 = SB.reverse().toString();
+	  
+	  if(S1.equalsIgnoreCase(S2)) {
+		  
+		  System.out.println("palindrome.");
+	  }else 
+		  System.out.println("not palindrome");
+	 }
+}
