@@ -1,0 +1,37 @@
+package String;
+
+public class stringbuffer {
+	
+	
+	public static void main(String []args) {
+		
+		String S1 = "Komlapur is the biggest train station in Bangladesh" ; 
+		
+		StringBuffer SB = new StringBuffer(S1);
+
+System.out.println(SB);
+		
+		SB.append(" Shah ");
+	    SB.append(22);
+		
+		System.out.println(SB);
+		
+		
+		SB.reverse();
+		System.out.println(SB);
+		
+		
+		
+		SB.delete(0, 5);
+		System.out.println(SB);
+		
+		SB.setLength(1);
+		System.out.println(SB);
+		
+		
+		
+		
+		
+		}
+
+}
