@@ -1,0 +1,29 @@
+package String;
+
+public class wrippercalss {
+
+	public static void main(String [] args) {
+		 //Primitive to Object (Autoboxing)
+		
+		int x = 30 ; 
+		Integer y = Integer.valueOf(x);
+		
+		System.out.println("Converting by autoboxing value of y="+y);
+		
+		//or
+		
+		Integer z = x ;
+		System.out.println(z);
+		
+		
+		//Object to Primptive 
+		
+		
+		Double A = 60.0 ; 
+		double b = A ;
+		
+		System.out.println("Convert using unboxing b = "+ b);
+		
+		
+	}
+}
